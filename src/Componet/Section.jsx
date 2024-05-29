@@ -7,7 +7,7 @@ export const Section = (props) => {
     const {home} = props
   return (
     <>
-        <section className="sec py-20 text-white flex justify-center items-center" ref={home}>
+        <section className="sec text-white flex justify-center items-center py-48 " ref={home}>
                 <div className="flex flex-col justify-center items-center gap-9 ">
                     <div className="py-4 overflow-hidden">
                         <motion.p animate={{top:0}} transition={{duration:0.6}} className="font-sans  uppercase top-[100px] relative">Hellow, New Frind !</motion.p>

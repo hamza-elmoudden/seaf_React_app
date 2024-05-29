@@ -16,10 +16,20 @@ export const Recipes = () => {
                     <p className="w-1/2 text-center text-xl capitalize opacity-55">Porro eveniet, autem ipsam corrupti consectetur cum.Repudiandae dignissimos fugiat sit nam.</p>
                 </div>
             </div>
-            <div className="flex gap-8 justify-center pt-20">
-                    <CardVisitors image={faceImage1}/>
-                    <CardVisitors image={faceImage2}/>
-                    <CardVisitors image={faceImage3}/>
+            <div className="flex gap-3 justify-center pt-20 flex-wrap">
+
+                <div className="md:w-[30rem] w-full hover:shadow-xl shadow-slate-200">
+                <CardVisitors image={faceImage1}/>
+                </div>
+
+                <div className="md:w-[30rem] w-full hover:shadow-xl shadow-slate-200">
+                <CardVisitors image={faceImage2}/>
+                </div>
+
+                <div className="md:w-[30rem] w-full hover:shadow-xl shadow-slate-200">
+                <CardVisitors image={faceImage3}/>
+                </div>
+
             </div>
     </section>
     </>
