@@ -43,7 +43,6 @@ export const Visitors = (props) => {
                         autoPlay={true} 
                         autoPlaySpeed={3000} 
                         itemClass="carousel-item-padding-10"
-                    
                         >
                         {
                             imagevistor.map((item)=>{
